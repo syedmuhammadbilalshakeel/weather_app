@@ -13,15 +13,15 @@ fetch('https://api.openweathermap.org/data/2.5/weather?q='+input.value+'&appid=5
   var tempValue = data['main']['temp'];
   var nameValue = data['name'];
   var descValue = data['weather'][0]['description'];
-
+ var cen = `<h1> <sup>o</sup>C</h1>`
   main.innerHTML = nameValue;
   desc.innerHTML = "Desc - "+descValue;
-  temp.innerHTML = "Temp - "+tempValue;
+  temp.innerHTML = "Temp - "+tempValue + cen;
   input.value ="";
 
 })
 
 .catch(err => alert("Wrong city name!"));
 })
- `
-<img id="temp-icon" src="https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png" alt=""> `
+//  `
+// <img id="temp-icon" src="https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png" alt=""> `
