@@ -1,4 +1,4 @@
-/* *{
+*{
     margin:0;
     padding: 0;
     box-sizing: border-box;
@@ -7,6 +7,7 @@
   body{
     font-family: "Nunito",sans-serif;
     background: #f8f8f8;
+    background-image: url(./jason-blackeye-GPPAjJicemU-unsplash.jpg);
   }
   
   .input{
@@ -61,4 +62,4 @@
     text-align: center;
     margin:40px 0;
     font-size:20px;
-  } */
+  }
