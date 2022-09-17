@@ -1,5 +1,5 @@
 const staticDevCoffee = "weather-website-v1";
-const assets = ["/", "/index.html", "/app.js", "/images/logo.png", "/back.jpg"];
+const assets = ["/", "/index.html", "/app.js", "/images/logo.jpg", "/back.jpg"];
 
 self.addEventListener("install", (installEvent) => {
   installEvent.waitUntil(
