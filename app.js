@@ -52,4 +52,5 @@ button.addEventListener('click', function (name) {
     .catch(err => alert("Wrong city name!"));
 })
 //  `
+//  impoetsgdtr
 // <img id="temp-icon" src="https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png" alt=""> `
